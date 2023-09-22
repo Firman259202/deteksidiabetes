@@ -20,7 +20,7 @@ Insulin = st.number_input('Input Nilai Insulin Anda = 0 - 1000')
 
 BMI = st.number_input('Input Nilai BMI Anda = 0 - 47')
 
-DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Padigree Funcition anda = 0 - 1000')
+DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Padigree Funcition anda = 0 - 1')
 
 Age = st.number_input('Input Usia Anda')
 
