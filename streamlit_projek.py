@@ -8,19 +8,19 @@ diabetes_model = pickle.load(open('Penyakit_diabetes.sav','rb'))
 #judul web
 st.title('Data Prediksi diabetes')
 
-Pregnancies = st.number_input('Input Nilai Pregnancies Anda')
+Pregnancies = st.number_input('Input Usia Kehamilan Anda')
 
-Glucose = st.number_input('Input Nilai Glucose Anda')
+Glucose = st.number_input('Input Nilai Glucose Anda = 0 - 240')
 
-BloodPressure = st.number_input('Input Nilai Bloodpreasure Anda')
+BloodPressure = st.number_input('Input Nilai Bloodpreasure Anda = 60 - 120 ')
 
-SkinThickness = st.number_input('Input Nilai SkinThicness Anda')
+SkinThickness = st.number_input('Input Nilai SkinThicness Anda = 0 - 50')
 
-Insulin = st.number_input('Input Nilai Insulin Anda')
+Insulin = st.number_input('Input Nilai Insulin Anda = 0 - 1000')
 
-BMI = st.number_input('Input Nilai BMI Anda')
+BMI = st.number_input('Input Nilai BMI Anda = 0 - 47')
 
-DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Padigree Funcition anda')
+DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Padigree Funcition anda = 0 - 1000')
 
 Age = st.number_input('Input Usia Anda')
 
