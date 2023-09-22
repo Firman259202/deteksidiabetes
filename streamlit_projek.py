@@ -16,7 +16,7 @@ BloodPressure = st.number_input('Input Nilai Bloodpreasure Anda = 60 - 120 ')
 
 SkinThickness = st.number_input('Input Nilai SkinThicness Anda = 0 - 50')
 
-Insulin = st.number_input('Input Nilai Insulin Anda = 0 - 1000')
+Insulin = st.number_input('Input Nilai Insulin Anda = 0 - 500')
 
 BMI = st.number_input('Input Nilai BMI Anda = 0 - 47')
 
